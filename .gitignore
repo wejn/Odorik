@@ -1,0 +1,9 @@
+build
+.repl_history
+vendor/Pods/*
+config.yaml
+resources/icons/*.png
+resources/missing-picture*.png
+resources/Icon*png
+Icon-512*png
+app/testflight_launcher.rb

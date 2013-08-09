@@ -1,0 +1,202 @@
+/* app/app_delegate.rb */
+"Can't call out" = "Can't call out";
+"CallOutScreen not initialized!" = "CallOutScreen not initialized!";
+
+/* app/models/acknowledgement.rb */
+"The awesome icons are Glyphish3 Pro." = "The awesome icons are Glyphish3 Pro.";
+"See http://www.glyphish.com/" = "See http://www.glyphish.com/";
+"Used with permission of miniTEL s.r.o." = "Used with permission of miniTEL s.r.o.";
+"Obtained from Jiří Kment <kment@odorik.cz>" = "Obtained from Jiří Kment <kment@odorik.cz>";
+
+/* app/models/favorite.rb */
+"default" = "default"; // default label for phone number
+
+/* app/screens/about_screen.rb */
+"About" = "About";
+"Version" = "Version"; // as in "Version 1.0"
+"crafted with love by:" = "crafted with love by:";
+"Acknowledgements" = "Acknowledgements";
+"E-mail Author" = "E-mail Author";
+"Support website" = "Support website";
+"http://wejn.com/ios/odorik/" = "http://wejn.com/ios/odorik/";
+
+/* app/screens/account_settings_screen.rb */
+"Account Settings" = "Account Settings";
+"Verifying ..." = "Verifying ...";
+"Verified & saved." = "Verified & saved.";
+"Verify failed. :-(" = "Verify failed. :-(";
+"Verify" = "Verify";
+"Verified." = "Verified.";
+// &rarr; and &nbsp; processing is manual for these two following strings.
+// In other words, don't get your hopes up.
+"Username/password is to be found in Odorik's member section (Settings &rarr; Account&nbsp;settings &rarr; API&nbsp;password)." = "Username/password is to be found in Odorik's member section (Settings &rarr; Account&nbsp;settings &rarr; API&nbsp;password).";
+"You have to press the \"verify\" button below for any changes to take effect." = "You have to press the \"verify\" button below for any changes to take effect.";
+"Username" = "Username";
+"Password" = "Password";
+"Reset" = "Reset";
+
+/* app/screens/acknowledgement_detail.rb */
+"Detail" = "Detail";
+
+/* app/screens/acknowledgements_screen.rb */
+"Acknowledgements#Title" = "Acknowledgements";
+"This app happily uses:" = "This app happily uses:";
+"If I forgot to attribute you, I apologize in advance. Please contact me and I will rectify it immediately." = "If I forgot to attribute you, I apologize in advance. Please contact me and I will rectify it immediately.";
+
+/* app/screens/call_history_screen.rb */
+"Recents" = "Recents";
+"Call History" = "Call History";
+"Pull to refresh history" = "Pull to refresh history";
+"Refreshing..." = "Refreshing...";
+"Last updated at %s" = "Last updated at %s";
+"%l:%M %p" = "%l:%M %p";
+"Loading..." = "Loading...";
+"Account not configured." = "Account not configured.";
+"Failure to fetch call history" = "Failure to fetch call history";
+"API returned error:" = "API returned error:";
+"No call history, yet." = "No call history, yet.";
+"Yesterday" = "Yesterday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+
+/* app/screens/call_out_screen.rb */
+"Setup Callback" = "Setup Callback";
+"Dial" = "Dial";
+"Pull to refresh balance" = "Pull to refresh balance";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Error" = "Error";
+"Odorik not configured" = "Odorik not configured";
+"Who to call" = "Who to call";
+"Additional details" = "Additional details";
+"Caller is the \"first leg\" of the callback, line determines caller ID." = "Caller is the \"first leg\" of the callback, line determines caller ID.";
+"Caller" = "Caller";
+"Line" = "Line";
+"Setup callback" = "Setup callback";
+"Available balance: %s CZK" = "Available balance: %s CZK";
+"Available balance: checking..." = "Available balance: checking...";
+"Setting up callback..." = "Setting up callback...";
+"invalid number" = "invalid number";
+"Callback failed" = "Callback failed";
+"Response from API:" = "Response from API:";
+"Expect incoming." = "Expect incoming.";
+
+/* app/screens/caller_select_screen.rb */
+"Caller Select" = "Caller Select";
+"Pull to refresh allowed senders" = "Pull to refresh allowed senders";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Odorik's Allowed Senders" = "Odorik's Allowed Senders";
+// "Loading..." = "Loading...";
+"Favorites" = "Favorites";
+"Other sources" = "Other sources";
+"From contacts" = "From contacts";
+"Entered manually" = "Entered manually";
+"None useable. Refresh needed?" = "None useable. Refresh needed?";
+"Choose a number to use as Caller" = "Choose a number to use as Caller";
+
+/* app/screens/contacts_screen.rb */
+"Contacts" = "Contacts";
+
+/* app/screens/favorites_screen.rb */
+"Favorites#Title" = "Favorites";
+"Favorites#TabName" = "Favorites";
+"Add" = "Add";
+"Choose a contact to add to Favorites" = "Choose a contact to add to Favorites";
+// "Loading..." = "Loading...";
+"Done" = "Done";
+"Edit" = "Edit";
+"No favorites, yet." = "No favorites, yet.";
+
+/* app/screens/line_select_screen.rb */
+"Line Select" = "Line Select";
+"Pull to refresh lines" = "Pull to refresh lines";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Odorik's Lines" = "Odorik's Lines";
+// "Loading..." = "Loading...";
+// "None useable. Refresh needed?" = "None useable. Refresh needed?";
+
+/* app/screens/manual_entry_screen.rb */
+"Manual Entry" = "Manual Entry";
+"Cancel" = "Cancel";
+// "Done" = "Done";
+"Phone" = "Phone";
+
+/* app/screens/reward_author.rb */
+"Reward author" = "Reward author";
+"Reward author with" = "Reward author with";
+"I can't thank you enough." = "I can't thank you enough.";
+"I highly appreciate it." = "I highly appreciate it.";
+"Thank you for your support!" = "Thank you for your support!";
+"If you find this app useful and want to reward its author for the hard work, you can reward him with cash equivalent of any of the following items.\n" = "If you find this app useful and want to reward its author for the hard work, you can reward him with cash equivalent of any of the following items.\n";
+"One liter of milk" = "One liter of milk";
+"Two cups of cappuccino" = "Two cups of cappuccino";
+"One 350g bag of coffee beans" = "One 350g bag of coffee beans";
+"Please note: These in-app purchases are entirely optional and will not unlock any additional features. It will give you a warm feeling that you supported development of this app, though." = "Please note: These in-app purchases are entirely optional and will not unlock any additional features. It will give you a warm feeling that you supported development of this app, though.";
+"Failed to purchase" = "Failed to purchase";
+"Failed to process in-app purchase" = "Failed to process in-app purchase";
+
+/* app/screens/settings_screen.rb */
+"Settings" = "Settings";
+"Odorik.cz API Access" = "Odorik.cz API Access";
+"Account" = "Account";
+"Phone number configuration" = "Phone number configuration";
+"Caller and Line are defaults you can temporarily override on Dial screen (until next app restart)." = "Caller and Line are defaults you can temporarily override on Dial screen (until next app restart).";
+// "Caller" = "Caller";
+// "Line" = "Line";
+"none" = "none";
+// "default" = "default";
+"Configure" = "Configure";
+"Restricted." = "Restricted.";
+"Denied." = "Denied.";
+"Granted." = "Granted.";
+"Unknown." = "Unknown.";
+"Contacts access" = "Contacts access";
+"If you previously denied access, you need to grant it in Settings &rarr; Privacy &rarr; Contacts." = "If you previously denied access, you need to grant it in Settings &rarr; Privacy &rarr; Contacts.";
+"This app" = "This app";
+"About this app" = "About this app";
+"Rate this app" = "Rate this app";
+"Settings#Reward author" = "Reward author";
+"Can't rate app" = "Can't rate app";
+"I don't know my own APP_ID, would you believe that?" = "I don't know my own APP_ID, would you believe that?";
+
+/* app/screens/simple_add_fave_screen.rb */
+"Add favorite" = "Add favorite";
+// "Cancel" = "Cancel";
+"Save" = "Save";
+"Name" = "Name";
+"John Doe" = "John Doe";
+// "Phone" = "Phone";
+"Phone label" = "Phone label";
+// "default" = "default";
+"mobile" = "mobile";
+"work" = "work";
+"home" = "home";
+"iPhone" = "iPhone";
+"main" = "main";
+"other" = "other";
+
+/* app/screens/welcome_screen.rb */
+"Welcome!" = "Welcome!";
+// "Configure" = "Configure";
+// "Restricted." = "Restricted.";
+// "Denied." = "Denied.";
+// "Granted." = "Granted.";
+// "Unknown." = "Unknown.";
+"1. Configure your Odorik Account" = "1. Configure your Odorik Account";
+"Configured." = "Configured.";
+// "Configure" = "Configure";
+"This app requires valid Odorik account." = "This app requires valid Odorik account.";
+"2. Grant access to your contacts" = "2. Grant access to your contacts";
+"Optional but recommended. Your addressbook data will be displayed to help you setup your calls quickly." = "Optional but recommended. Your addressbook data will be displayed to help you setup your calls quickly.";
+"3. Let's go!" = "3. Let's go!";
+"Start" = "Start";

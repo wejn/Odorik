@@ -1,0 +1,26 @@
+v1.0:
++ support website
++ Localization to CZ
++ in-app screenshot
++ Reward author screen
++ trim sugarcube (=> trim compile time)
++ Welcome screen
+  (ask for contacts, ask to configure odorik)
++ Splash screen
++ About screen
++ Credits screen (settings bundle)
++ Tabs based on AB permission
+
+later:
+- Call history - sync its look with web & fix bugs in "missed" (etc)
+- FEAT: SMS
+- FEAT: Call history configurable period
+- BUG: Contacts: click search, go back and "cancel" button is on again
+- FEAT: auto-refresh faves from AB (conditional)
+- FEAT: lookup numbers in AB (for Recents and CallOut)
+- FEAT: one-click callback (add icon to home screen for contact)
+- FEAT: (cond) balance as a button
+- BUG(?): refresh when refreshing Recents
+- FEAT: direct call from faves or contacts (cond)
+- FEAT: turn off photos
+- BUG: Recents scrolling is still dog slow (autolayout, anyone?)

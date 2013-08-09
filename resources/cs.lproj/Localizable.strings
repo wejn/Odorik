@@ -1,0 +1,202 @@
+/* app/app_delegate.rb */
+"Can't call out" = "Nemohu volat";
+"CallOutScreen not initialized!" = "CallOutScreen není inicializována!";
+
+/* app/models/acknowledgement.rb */
+"The awesome icons are Glyphish3 Pro." = "Úžasné ikony, které jsem použil, jsou Glyphish3 Pro.";
+"See http://www.glyphish.com/" = "Viz http://www.glyphish.com/";
+"Used with permission of miniTEL s.r.o." = "Použito se souhlasem miniTEL s.r.o.";
+"Obtained from Jiří Kment <kment@odorik.cz>" = "Získáno od Jiřího Kmenta <kment@odorik.cz>";
+
+/* app/models/favorite.rb */
+"default" = "default"; // default label for phone number
+
+/* app/screens/about_screen.rb */
+"About" = "O aplikaci";
+"Version" = "Verze"; // as in "Version 1.0"
+"crafted with love by:" = "vytvořila s láskou firma:";
+"Acknowledgements" = "Poděkování";
+"E-mail Author" = "Napište autorovi";
+"Support website" = "Stránka podpory";
+"http://wejn.com/ios/odorik/" = "http://wejn.com/ios/odorik/cz.html";
+
+/* app/screens/account_settings_screen.rb */
+"Account Settings" = "Nastavení účtu";
+"Verifying ..." = "Ověřuji ...";
+"Verified & saved." = "Ověřeno & uloženo.";
+"Verify failed. :-(" = "Ověření selhalo. :-(";
+"Verify" = "Ověř";
+"Verified." = "Ověřeno.";
+// &rarr; and &nbsp; processing is manual for these two following strings.
+// In other words, don't get your hopes up.
+"Username/password is to be found in Odorik's member section (Settings &rarr; Account&nbsp;settings &rarr; API&nbsp;password)." = "Jméno/heslo lze nalézt v&nbsp;uživatelské sekci Odorik.cz (Návody&nbsp;a&nbsp;nastavení &rarr; Nastavení&nbsp;účtu &rarr; API&nbsp;heslo).";
+"You have to press the \"verify\" button below for any changes to take effect." = "Je nutno stisknout tlačítko \"ověřit\" (viz níže), aby se změny uplatnily.";
+"Username" = "Jméno";
+"Password" = "Heslo";
+"Reset" = "Reset";
+
+/* app/screens/acknowledgement_detail.rb */
+"Detail" = "Detail";
+
+/* app/screens/acknowledgements_screen.rb */
+"Acknowledgements#Title" = "Poděkování";
+"This app happily uses:" = "Tato aplikace s nadšením využívá:";
+"If I forgot to attribute you, I apologize in advance. Please contact me and I will rectify it immediately." = "Pokud jsem Vás zapomněl v seznamu uvést, velmi se omlouvám. Prosím kontaktujte mě a okamžitě sjednám nápravu.";
+
+/* app/screens/call_history_screen.rb */
+"Recents" = "Výpis hovorů";
+"Call History" = "Výpis hovorů";
+"Pull to refresh history" = "Zatáhněte pro obnovení seznamu";
+"Refreshing..." = "Obnovuji...";
+"Last updated at %s" = "Naposledy obnoveno %s";
+"%l:%M %p" = "%k:%M";
+"Loading..." = "Načítám...";
+"Account not configured." = "Účet není nastaven.";
+"Failure to fetch call history" = "Nemohu stáhnout výpis hovorů";
+"API returned error:" = "API vrátilo chybu:";
+"No call history, yet." = "Zatím žádné hovory.";
+"Yesterday" = "včera";
+"Monday" = "pondělí";
+"Tuesday" = "úterý";
+"Wednesday" = "středa";
+"Thursday" = "čtvrtek";
+"Friday" = "pátek";
+"Saturday" = "sobota";
+"Sunday" = "neděle";
+
+/* app/screens/call_out_screen.rb */
+"Setup Callback" = "Sestavit Callback";
+"Dial" = "Volat";
+"Pull to refresh balance" = "Zatáhněte pro obnovení zůstatku";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Error" = "Chyba";
+"Odorik not configured" = "Odorik není nastaven";
+"Who to call" = "Koho volat";
+"Additional details" = "Další nastavení";
+"Caller is the \"first leg\" of the callback, line determines caller ID." = "Volající je \"první noha\" callbacku, linka určuje identitu volajícího.";
+"Caller" = "Volající";
+"Line" = "Linka";
+"Setup callback" = "Sestavit callback";
+"Available balance: %s CZK" = "Dostupný zůustatek: %s Kč";
+"Available balance: checking..." = "Dostupný zůstatek: zjišťuji...";
+"Setting up callback..." = "Sestavuji callback...";
+"invalid number" = "neplatné číslo";
+"Callback failed" = "Sestavení selhalo";
+"Response from API:" = "Odpověď API:";
+"Expect incoming." = "Očekávejte příchozí.";
+
+/* app/screens/caller_select_screen.rb */
+"Caller Select" = "Výběr volajícího";
+"Pull to refresh allowed senders" = "Zatáhněte pro obnovení seznamu";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Odorik's Allowed Senders" = "Povolení odesílatelé z Odoriku";
+// "Loading..." = "Loading...";
+"Favorites" = "Oblíbené";
+"Other sources" = "Další zdroje";
+"From contacts" = "Z kontaktů";
+"Entered manually" = "Ruční zadání";
+"None useable. Refresh needed?" = "Žádné použitelné. Nutné obnovení?";
+"Choose a number to use as Caller" = "Vyberte číslo, které se má použít jako Volající";
+
+/* app/screens/contacts_screen.rb */
+"Contacts" = "Kontakty";
+
+/* app/screens/favorites_screen.rb */
+"Favorites#Title" = "Oblíbené";
+"Favorites#TabName" = "Oblíbené";
+"Add" = "Přidat";
+"Choose a contact to add to Favorites" = "Vyberte kontakt pro přidání do Oblíbených";
+// "Loading..." = "Loading...";
+"Done" = "Hotovo";
+"Edit" = "Upravit";
+"No favorites, yet." = "Žádní oblíbení (zatím).";
+
+/* app/screens/line_select_screen.rb */
+"Line Select" = "Výběr linky";
+"Pull to refresh lines" = "Zatáhněte pro obnovení seznamu";
+// "Refreshing..." = "Refreshing...";
+// "Last updated at %s" = "Last updated at %s";
+// "%l:%M %p" = "%l:%M %p";
+"Odorik's Lines" = "Seznam linek Odoriku";
+// "Loading..." = "Loading...";
+// "None useable. Refresh needed?" = "None useable. Refresh needed?";
+
+/* app/screens/manual_entry_screen.rb */
+"Manual Entry" = "Ruční zadání";
+"Cancel" = "Zrušit";
+// "Done" = "Done";
+"Phone" = "Číslo";
+
+/* app/screens/reward_author.rb */
+"Reward author" = "Odměnit autora";
+"Reward author with" = "Odměnit autora částkou";
+"I can't thank you enough." = "Jsem Vám neskonale vděčen.";
+"I highly appreciate it." = "Velmi si toho vážím.";
+"Thank you for your support!" = "Děkuji za Vaši podporu!";
+"If you find this app useful and want to reward its author for the hard work, you can reward him with cash equivalent of any of the following items.\n" = "Pokud Vám aplikace přijde užitečná a chcete autora odměnit za usilí vložené do její tvorby, můžete mu věnovat peněžní ekvivalent některé z&nbsp;následujících položek.\n";
+"One liter of milk" = "Litr plnotučného mléka";
+"Two cups of cappuccino" = "Dva šálky cappuccina";
+"One 350g bag of coffee beans" = "350 gramový balíček kávy";
+"Please note: These in-app purchases are entirely optional and will not unlock any additional features. It will give you a warm feeling that you supported development of this app, though." = "Prosím mějte na paměti: Nákup libovolné z&nbsp;těchto položek je nepovinný a neodemkne Vám v&nbsp;aplikaci žádnou další funkcionalitu. Pouze Vás bude hřát u&nbsp;srdce, že jste podpořili vývoj této aplikace.";
+"Failed to purchase" = "Nákup selhal";
+"Failed to process in-app purchase" = "Nepodařilo se zpracovat nákup";
+
+/* app/screens/settings_screen.rb */
+"Settings" = "Nastavení";
+"Odorik.cz API Access" = "Přístup k API Odorik.cz";
+"Account" = "Účet";
+"Phone number configuration" = "Nastavení telefonních čísel";
+"Caller and Line are defaults you can temporarily override on Dial screen (until next app restart)." = "Volající a Linka jsou výchozí hodnoty, které lze dočasně (do restartu aplikace) změnit i na obrazovce sestavení hovoru.";
+// "Caller" = "Caller";
+// "Line" = "Line";
+"none" = "žádná";
+// "default" = "default";
+"Configure" = "Nastavit";
+"Restricted." = "Omezeno.";
+"Denied." = "Odmítnuto.";
+"Granted." = "Povoleno.";
+"Unknown." = "Neznámé.";
+"Contacts access" = "Přístup ke kontaktům";
+"If you previously denied access, you need to grant it in Settings &rarr; Privacy &rarr; Contacts." = "Pokud jste v minulosti zamezili přístupu ke kontaktům, musíte nastavení změnit v Nastavení telefonu (Nastavení &rarr; Soukromí &rarr; Kontakty.";
+"This app" = "Tato aplikace";
+"About this app" = "O aplikaci";
+"Rate this app" = "Ohodnoťte aplikaci";
+"Settings#Reward author" = "Odměňte autora";
+"Can't rate app" = "Nelze ohodnotit aplikaci";
+"I don't know my own APP_ID, would you believe that?" = "Neznám své vlastní APP_ID; no, věřili byste tomu?";
+
+/* app/screens/simple_add_fave_screen.rb */
+"Add favorite" = "Přidat oblíbeného";
+// "Cancel" = "Cancel";
+"Save" = "Uložit";
+"Name" = "Jméno";
+"John Doe" = "Jan Novák";
+// "Phone" = "Phone";
+"Phone label" = "Štítek";
+// "default" = "default";
+"mobile" = "mobil";
+"work" = "práce";
+"home" = "domů";
+"iPhone" = "iPhone";
+"main" = "hlavní";
+"other" = "jiný";
+
+/* app/screens/welcome_screen.rb */
+"Welcome!" = "Vítejte!";
+// "Configure" = "Configure";
+// "Restricted." = "Restricted.";
+// "Denied." = "Denied.";
+// "Granted." = "Granted.";
+// "Unknown." = "Unknown.";
+"1. Configure your Odorik Account" = "1. Nastavte svůj Odorik účet";
+"Configured." = "Nastaveno.";
+// "Configure" = "Configure";
+"This app requires valid Odorik account." = "Aplikace vyžaduje platný účet na Odorik.cz.";
+"2. Grant access to your contacts" = "2. Povolte přístup ke kontaktům";
+"Optional but recommended. Your addressbook data will be displayed to help you setup your calls quickly." = "Nepovinné, ale doporučené. Přístup ke kontaktům Vám umožní sestavit hovory rychleji.";
+"3. Let's go!" = "3. Začněme!";
+"Start" = "Start";
