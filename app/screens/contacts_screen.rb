@@ -53,8 +53,10 @@ class ContactsScreen < ABPeoplePickerNavigationController
 
 	def peoplePickerNavigationController(people_picker, shouldContinueAfterSelectingPerson:ab_person, property:property, identifier:id)
 		if @phone_select_cb
+			phones = ABRecordCopyValue(ab_person, property)
+			idx = ABMultiValueGetIndexForIdentifier(phones, id)
 			person = AddressBook::Person.new({}, ab_person)
-			ret = @phone_select_cb.call(person, property, id)
+			ret = @phone_select_cb.call(person, property, idx)
 			if @close_after_select
 				self.dismissModalViewControllerAnimated(true)
 				false

@@ -64,7 +64,7 @@ Motion::Project::App.setup do |app|
 	app.identifier = 'com.wejn.Odorik'
 	app.info_plist['X_ITUNES_APP_ID'] = 682721789
 	app.info_plist['X_ITUNES_IN_APPS'] = %w[milk 2cappu bag]
-	app.version = app.short_version = "1.0"
+	app.version = app.short_version = "1.0.1"
 	app.deployment_target = "6.0"
 	app.sdk_version = "6.1"
 

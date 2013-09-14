@@ -53,7 +53,7 @@ class Odorik
 			pload = {user: username, password: password, user_agent: CLIENT_ID}
 			s = get_server(username == '888' && password == '888')
 			AFMotion::HTTP.get(s + 'balance', pload) do |resp|
-				b.call(resp.success? && resp.body !~ /^error/)
+				b.call(resp.success? && (resp.body || "") !~ /^error/)
 			end
 			self
 		end
@@ -142,7 +142,7 @@ class Odorik
 				pload = {user: @user, password: @pass, user_agent: CLIENT_ID}
 				AFMotion::HTTP.get(get_server + 'balance', pload) do |resp|
 					if resp.success?
-						@balance = resp.body.strip
+						@balance = (resp.body || "??.??").strip
 						save!
 						b.call(@balance)
 					else
@@ -165,7 +165,7 @@ class Odorik
 				pload = {user: @user, password: @pass, user_agent: CLIENT_ID}
 				AFMotion::HTTP.get(get_server + 'lines', pload) do |resp|
 					if resp.success?
-						@lines = resp.body.strip.split(/,/)
+						@lines = (resp.body || "").strip.split(/,/)
 						save!
 						b.call(@lines)
 					else
@@ -189,7 +189,7 @@ class Odorik
 				pload = {user: @user, password: @pass, user_agent: CLIENT_ID}
 				AFMotion::HTTP.get(get_server + 'sms/allowed_sender', pload) do |resp|
 					if resp.success?
-						@sms_allowed_sender = resp.body.strip.split(/,/)
+						@sms_allowed_sender = (resp.body || "").strip.split(/,/)
 						save!
 						b.call(@sms_allowed_sender)
 					else
@@ -230,7 +230,7 @@ class Odorik
 			AFMotion::HTTP.post(get_server + 'callback', pload) do |resp|
 				if resp.success?
 					p [:callback, :ok, resp.body] if Device.simulator?
-					ok = resp.body[/^(callback_ordered|successfully_enqueued)/]
+					ok = (resp.body || "")[/^(callback_ordered|successfully_enqueued)/]
 					b.call(ok ? nil : resp.body)
 				else
 					p [:callback, :fail, resp.error.localizedDescription] if Device.simulator?

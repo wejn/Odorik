@@ -1,5 +1,5 @@
 # Odorik application for iPhone, iPod
-This is snapshot of a source code of v1.0 of
+This is snapshot of a source code of v1.0.1 of
 [Odorik](https://itunes.apple.com/us/app/odorik/id682721789?ls=1&mt=8) app,
 written in RubyMotion.
 
